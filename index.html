@@ -1,1 +1,229 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>متجر الشحن</title>
 
+<style>
+*{box-sizing:border-box}
+
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#f4f6fb;
+color:#172033;
+}
+
+header{
+background:linear-gradient(135deg,#111936,#613bc0);
+color:white;
+text-align:center;
+padding:45px 15px;
+}
+
+header h1{
+margin:0 0 10px;
+font-size:34px;
+}
+
+header p{
+margin:0;
+font-size:17px;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:25px 15px;
+}
+
+.title{
+text-align:center;
+margin:15px 0 25px;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+gap:18px;
+}
+
+.card{
+background:white;
+border-radius:20px;
+padding:25px 18px;
+text-align:center;
+box-shadow:0 7px 25px rgba(0,0,0,.08);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover{
+transform: translateY(-5px);
+box-shadow:0 12px 30px rgba(0,0,0,.12);
+}
+
+.icon{
+font-size:55px;
+}
+
+.card h3{
+margin:12px 0 8px;
+}
+
+.card p{
+color:#687386;
+}
+
+.price{
+font-size:20px;
+font-weight:bold;
+margin:15px;
+color:#111936;
+}
+
+.btn{
+display:inline-block;
+background:#20c76a;
+color:white;
+padding:12px 25px;
+border-radius:12px;
+text-decoration:none;
+font-weight:bold;
+transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.btn:hover{
+background:#1bb35e;
+transform: translateY(-2px);
+}
+
+.payment{
+background:white;
+margin-top:25px;
+padding:25px;
+border-radius:20px;
+text-align:center;
+box-shadow:0 7px 25px rgba(0,0,0,.06);
+}
+
+.payment span{
+display:inline-block;
+margin:7px;
+padding:10px 18px;
+background:#f0f2f7;
+border-radius:10px;
+font-weight:bold;
+color:#333;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+left:20px;
+background:#20c76a;
+color:white;
+padding:14px 20px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 5px 20px rgba(0,0,0,.2);
+z-index: 1000;
+transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.whatsapp:hover{
+background:#1bb35e;
+transform: scale(1.05);
+}
+
+footer{
+text-align:center;
+padding:25px;
+color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🔥 متجر الشحن 🔥</h1>
+<p>شحن الألعاب والتطبيقات بسرعة وأمان</p>
+</header>
+
+<div class="container">
+
+<h2 class="title">🎮 خدماتنا</h2>
+
+<div class="products">
+
+<div class="card">
+<div class="icon">🎮</div>
+<h3>PUBG Mobile</h3>
+<p>شحن شدات PUBG Mobile</p>
+<div class="price">تواصل للسعر</div>
+<a class="btn"
+href="https://wa.me/963954011910?text=مرحبا،%20أريد%20شحن%20PUBG%20Mobile"
+target="_blank">
+اطلب الآن
+</a>
+</div>
+
+<div class="card">
+<div class="icon">🔥</div>
+<h3>Free Fire</h3>
+<p>شحن جواهر Free Fire</p>
+<div class="price">تواصل للسعر</div>
+<a class="btn"
+href="https://wa.me/963954011910?text=مرحبا،%20أريد%20شحن%20Free%20Fire"
+target="_blank">
+اطلب الآن
+</a>
+</div>
+
+<div class="card">
+<div class="icon">📱</div>
+<h3>شحن التطبيقات</h3>
+<p>شحن وخدمات التطبيقات والألعاب</p>
+<div class="price">تواصل للسعر</div>
+<a class="btn"
+href="https://wa.me/963954011910?text=مرحبا،%20أريد%20شحن%20تطبيق"
+target="_blank">
+اطلب الآن
+</a>
+</div>
+
+</div>
+
+<div class="payment">
+<h2>💳 طرق الدفع</h2>
+
+<span>💰 شام كاش</span>
+<span>📱 واتساب</span>
+
+<p>
+للطلب والاستفسار تواصل معنا على واتساب
+</p>
+
+<a class="btn"
+href="https://wa.me/963954011910?text=مرحبا،%20أريد%20الاستفسار%20عن%20طرق%20الدفع"
+target="_blank">
+📲 تواصل معنا
+</a>
+</div>
+
+</div>
+
+<a class="whatsapp"
+href="https://wa.me/963954011910?text=مرحبا،%20أريد%20الاستفسار%20عن%20الخدمات"
+target="_blank">
+💬 واتساب
+</a>
+
+<footer>
+© 2026 متجر الشحن — جميع الحقوق محفوظة
+</footer>
+
+</body>
+</html>
